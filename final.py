@@ -105,7 +105,6 @@ def transfer_money(balance, transaction_history):
 
 def change_pin(password):
     """Allow the user to change their PIN."""
-    new_pin = input("Enter your new pin:")
     new_pin = validate_pin_input()
     if new_pin:
         password = new_pin
